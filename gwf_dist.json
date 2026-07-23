@@ -1,0 +1,105 @@
+{
+  "$schema": "https://dist.greenweb.org/schemas/dist/v0.0.1.json",
+  "organisation": {
+    "name": "Green Web Foundation",
+    "description": "Green Web Foundation is a non-profit organisation working towards a fossil-free internet by 2030.",
+    "open_corporates_url": "https://opencorporates.com/companies/nl/52191494",
+    "country": "The Netherlands",
+    "sector": "Non-profit",
+    "size": "1-10"
+  },
+  "report": {
+    "reporting_period": {
+      "from": "2023-01-01",
+      "to": "2023-12-31"
+    },
+    "verification": "self_reported",
+    "impacts": {
+      "carbon": [
+        {
+          "categories": ["upstream:employee_hardware"],
+          "value": 186,
+          "unit": "kgCO2e",
+          "confidence": "high",
+          "notes": "Worked calculations and description of method at https://www.techcarbonstandard.org/case-studies/green-web-foundation/upstream#employee-hardware"
+        },
+        {
+          "categories": ["upstream:network_hardware"],
+          "value": 0,
+          "unit": "kgCO2e",
+          "confidence": "medium",
+          "notes": "Worked calculations and description of method at https://www.techcarbonstandard.org/case-studies/green-web-foundation/upstream#networking-and-infrastructure-hardware"
+        },
+        {
+          "categories": ["upstream:server_and_storage_hardware"],
+          "value": 0,
+          "unit": "kgCO2e",
+          "confidence": "high",
+          "notes": "GWF does not own any of it’s own servers or storage hardware. This means there are no carbon emissions to report in this category and we’re highly confident about this."
+        },
+        {
+          "categories": ["operational:direct:employee_devices"],
+          "value": 116,
+          "unit": "kgCO2e",
+          "confidence": "high",
+          "notes": "Worked calculations and description of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/operational#employee-devices"
+        },
+        {
+          "categories": ["operational:direct:networking"],
+          "value": 40,
+          "unit": "kgCO2e",
+          "confidence": "medium",
+          "notes": "Worked calculations and description of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/operational#networking-and-infrastructure"
+        },
+        {
+          "categories": ["operational:direct:servers_and_storage"],
+          "value": 0,
+          "unit": "kgCO2e",
+          "confidence": "high",
+          "notes": "GWF does not own or operate any of its own server hardware."
+        },
+        {
+          "categories": ["operational:direct:generators"],
+          "value": 0,
+          "unit": "kgCO2e",
+          "confidence": "high",
+          "notes": "GWF does not own or operate any generators."
+        },
+        {
+          "categories": ["operational:indirect:cloud_services"],
+          "value": 27,
+          "unit": "kgCO2e",
+          "confidence": "medium",
+          "notes": "Mix of high level and detailed estimates - low to medium confidence. Worked calculations and description of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/operational#cloud-services "
+        },
+        {
+          "categories": ["operational:indirect:saas"],
+          "value": null,
+          "unit": "kgCO2e",
+          "notes": "Reliable data not available in order to estimate."
+        },
+        {
+          "categories": ["operational:indirect:managed_services"],
+          "value": 0,
+          "unit": "kgCO2e",
+          "confidence": "medium",
+          "notes": "Worked calculations and descrption of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/operational#managed-services"
+        },
+        {
+          "categories": ["downstream:end_user_devices"],
+          "value": 117,
+          "unit": "kgCO2e",
+          "confidence": "low",
+          "notes": "Worked calculations and descrption of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/downstream#customer-devices"
+        },
+        {
+          "categories": ["downstream:network_data_transfer"],
+          "value": 10,
+          "unit": "kgCO2e",
+          "confidence": "medium",
+          "notes": "Worked calculations and descrption of method at: https://www.techcarbonstandard.org/case-studies/green-web-foundation/downstream#network-data-transfer"
+        },
+      ]
+    }
+  }
+}
