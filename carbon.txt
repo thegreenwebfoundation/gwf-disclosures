@@ -1,0 +1,16 @@
+version="0.5"
+last_updated="2026-08-06"
+
+[org]
+disclosures = [
+    { doc_type='other', url='https://www.thegreenwebfoundation.org/.well-known/dist.json', valid_until='2023-12-31', title='2023 digital estate emission estimates for Green Web Foundation' }
+]
+
+[upstream]
+services = [
+	{ domain='www.hetzner.com', service_type='block-storage' },
+    { domain='www.hetzner.com', service_type='virtual-private-servers' },
+    { domain='www.scaleway.com', service_type='object-storage' },
+    { domain='www.34sp.com', service_type='managed-wordpress-hosting' },
+    { domain='www.cloudflare.com', service_type='content-delivery-network' }
+]
