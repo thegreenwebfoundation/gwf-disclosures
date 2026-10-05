@@ -1,9 +1,9 @@
-version="0.5"
-last_updated="2026-08-06"
+version="0.6"
+last_updated="2026-10-05"
 
 [org]
 disclosures = [
-    { doc_type='other', url='https://www.thegreenwebfoundation.org/.well-known/dist.json', valid_until='2023-12-31', title='2023 digital estate emission estimates for Green Web Foundation' }
+    { doc_type='measurement-data', url='https://www.thegreenwebfoundation.org/.well-known/dist.json', valid_until='2023-12-31', title='2023 digital estate emission estimates for Green Web Foundation' }
 ]
 
 [upstream]
