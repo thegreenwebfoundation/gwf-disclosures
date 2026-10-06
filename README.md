@@ -1,2 +1,2 @@
-# gwf-dist
-The Green Web Foundation's environmental impacts, expressed in the DIST format.
+# gwf-disclosuresº
+The Green Web Foundation's environmental own environmental disclosures expressed in the carbon.txt and  DIST formats.
