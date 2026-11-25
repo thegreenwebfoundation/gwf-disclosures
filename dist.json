@@ -61,9 +61,7 @@
           "notes": "GWF does not own or operate any of its own server hardware."
         },
         {
-          "categories": [
-            "operational:direct:generators",
-          ],
+          "categories": ["operational:direct:generators"],
           "value": 0,
           "unit": "kgCO2e",
           "confidence": "high",
